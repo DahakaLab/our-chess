@@ -1,0 +1,23 @@
+.parent {
+  display: flex;
+
+  &Vertical {
+    flex-direction: column;
+  }
+
+  // &Horizontal {
+  //   width: 60px;
+  // }
+}
+
+.item {
+  flex: 0 0;
+
+  &Vertical {
+    height: 60px;
+  }
+
+  &Horizontal {
+    width: 60px;
+  }
+}
