@@ -1,13 +1,16 @@
 .parent {
-  width: 600px;
-  height: 600px;
-  padding: 10px;
-  background-color: #fff;
-  border: 2px solid #b7a287;
+  border: 8px solid $grey;
+  box-shadow: 0 0 0 2px $light;
 }
 
 .wrapperNumber {
   width: 100%;
   height: 100%;
-  background-color: #b7a287;
+  background-color: $light;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  height: 100%;
 }

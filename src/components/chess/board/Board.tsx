@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Numbers } from './numbers/Numbers';
+import { Place } from './place/Place';
 import styles from './Board.module.scss';
 
 const Board: React.FC = () => {
@@ -12,7 +13,7 @@ const Board: React.FC = () => {
         </div>
         <div className={styles.row}>
           <Numbers />
-          <span>Board</span>
+          <Place />
           <Numbers />
         </div>
         <div className={styles.row}>

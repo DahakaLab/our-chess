@@ -1,0 +1,16 @@
+.parent {
+  width: 100%;
+  height: 100%;
+  border: 2px solid $dark;
+}
+
+.row {
+  display: flex;
+  height: $cellSize;
+  width: 100%;
+}
+
+.cell {
+  height: 100%;
+  width: $cellSize;
+}
