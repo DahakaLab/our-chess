@@ -5,12 +5,10 @@ import styles from './Cell.module.scss';
 
 interface Props {
   // TODO: Допилить систему id
-  // id: string;
+  id: string;
   isLight?: boolean;
 }
 const Cell: React.FC<Props> = ({ isLight = false }) => {
-  console.log(isLight);
-
   return (
     <div className={clsx(styles.parent, {
       [styles.light]: isLight,
